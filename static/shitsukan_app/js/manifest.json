@@ -1,0 +1,9 @@
+{
+  "name": "質感測定",
+  "short_name": "質感測定",
+  "start_url": "/proj_mswym/shitsukan/index.cgi/login",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#000",
+  "theme_color": "#000"
+}
