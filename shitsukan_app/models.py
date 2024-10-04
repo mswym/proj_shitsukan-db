@@ -13,6 +13,8 @@ class User(AbstractUser):
     is_first_adjustment = models.BooleanField(default=True)
     list_tasks = models.TextField(blank=True)
     task_count = models.IntegerField(default=0)
+    max_count = models.IntegerField(default=8)
+
 
 
 class MonitorSizeShitsukan(models.Model):
