@@ -41,7 +41,7 @@ def login_view(request):
 
             if user:
                 login(request, user)
-                return redirect(to='monitor')
+                return redirect(to='introduction')
 
     else:
         form = LoginForm()

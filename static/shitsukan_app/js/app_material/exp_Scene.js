@@ -13,7 +13,7 @@ exp_Scene.Start = {
     update: function () {
 
         let cfg = Config.Text;
-        let text_result = index_block + ' / 8 番目のブロックです\n\n画面をタップして実験を開始してください';
+        let text_result = index_block + ' / 8 番目のブロックです\n\n画面をクリックして実験を開始してください';
         push();
         fill(cfg.color);
         textSize(cfg.fontSize);

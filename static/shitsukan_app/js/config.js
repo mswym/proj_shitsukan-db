@@ -47,13 +47,19 @@ Config.Fixation.colorCross = 0;
 
 // Monitor
 // "monitor_size" is imported from user (in inch)
-let viewer_dist = 30; //in cm
+let viewer_dist = 57; //in cm
 function get_ppd(viewer_dist, screen_params){
     return (viewer_dist*Math.tan(Math.PI/180)) * screen_params;
 }
+
 let window_availw = window.screen.availWidth;
 let window_ratio = window.screen.availHeight/window_availw;
-let width_screen_cm = Math.sqrt((monitor_size*2.54)**2/(1+window_ratio**2));
+
+/// Here if monitor_size is input by users
+//let width_screen_cm = Math.sqrt((monitor_size*2.54)**2/(1+window_ratio**2));
+/// Here monitor size is fixed (like Showa exp)
+let width_screen_cm = 50.9
+
 let screen_params = window_availw/width_screen_cm;
 let ppd = get_ppd(viewer_dist, screen_params);
 
