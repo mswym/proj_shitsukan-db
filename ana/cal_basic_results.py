@@ -54,5 +54,5 @@ def _make_flatten(lists_str):
     return list_out
 
 if __name__ == '__main__':
-    list_user = ['itahashi']
+    list_user = ['hirano']
     load_results(list_user, database_path='../db.sqlite3')
