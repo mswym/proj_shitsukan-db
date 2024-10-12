@@ -83,7 +83,7 @@ def rename_images_in_folder(folder_path):
 
 # Specify the main directory where the folders are located
 main_directory = "C:/Users/masas/OneDrive/Desktop/git/proj_shitsukan-db/static/shitsukan_app/img/material_swym"
-vec_gamma = [2.3857,2.3943,2.6699]
+vec_gamma = [2.2694,2.2662,2.1827]
 # Iterate through each folder in the main directory
 for folder_name in os.listdir(main_directory):
     folder_path = os.path.join(main_directory, folder_name)
