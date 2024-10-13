@@ -9,8 +9,8 @@ const APP_VER = '?23v2';
 const APP_ROOT = '../'; // for CGI
 
 // スタティックのルート
-const STATIC_ROOT = '/static/';
-//const STATIC_ROOT = '../../static/'; // for CGI
+//const STATIC_ROOT = '/static/';
+const STATIC_ROOT = '../../static/'; // for CGI
 
 // 画像のルート
 const IMAGE_ROOT = 'shitsukan_app/img/';

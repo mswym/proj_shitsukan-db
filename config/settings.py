@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-nnetvj%n06p46egodw!n50cc^p^3ehj&47)vgu(4w2^5lgy(t("
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', '192.168.1.77', 'www.brain.ipc.i.u-tokyo.ac.jp']
 
@@ -105,11 +105,11 @@ USE_I18N = True
 
 USE_TZ = True
 
-LOGIN_URL = '/shitsukan_app/'
-# LOGIN_URL = '/exp/proj_jitter_app/index.cgi/'  # for CGI
+#LOGIN_URL = '/shitsukan_app/'
+LOGIN_URL = '/proj_mswym/showa/index.cgi/'  # for CGI
 
-STATIC_URL = "/static/"
-# STATIC_URL = "../static/"  # for CGI
+#STATIC_URL = "/static/"
+STATIC_URL = "../static/"  # for CGI
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
