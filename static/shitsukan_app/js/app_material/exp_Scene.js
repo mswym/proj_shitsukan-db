@@ -227,7 +227,7 @@ exp_Scene.End = {
 
     update: function (){
         let cfg = Config.Text;
-        let text_result = 'ブロックが終了しました\n以下のボタンをタップしてください';
+        let text_result = 'ブロックが終了しました\n以下のボタンをクリックしてください';
         push();
         fill(cfg.color);
         textSize(cfg.fontSize);

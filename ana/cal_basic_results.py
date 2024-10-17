@@ -88,7 +88,8 @@ def draw_figure(vec_mean,indices):
     print('here')
 
 if __name__ == '__main__':
-    list_user = ['hirano']
+    list_user = ['yamashita','nakayama','uno','hirano','itahashi']
+    #list_user = ['yamashita']
     means_sub = []
     for user in list_user:
         vec_mean,vec_obj1,vec_obj2,df_sorted,data_results = load_results(user, database_path='../db.sqlite3')
